@@ -1,0 +1,17 @@
+.productInfo {
+  font-weight: 300;
+  line-height: 200%;
+  border: 1px solid;
+  padding: 1rem;
+  border-radius: 10px;
+  height: fit-content;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .productTab {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+}

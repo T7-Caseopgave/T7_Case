@@ -30,7 +30,6 @@ function showItem(item) {
   copy.querySelector("img").src = `img/${item.category}.webp`;
   copy.querySelector("img").alt = item.model;
   copy.querySelector("h3").textContent = item.model;
-  copy.querySelector("a").href = `product.html?id${item.objectID}`;
   copy
     .querySelector(".seeMore")
     .setAttribute("href", `product.html?id=${item.objectId}`);

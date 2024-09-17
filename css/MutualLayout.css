@@ -2,43 +2,6 @@ body {
   margin: 7%;
 }
 
-ol {
-  display: grid;
-  grid-gap: 16px;
-}
-
-@media (min-width: 800px) {
-  ol {
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
-  }
-
-  .productlist main h1 {
-    grid-column: span 3;
-  }
-
-  .productlist main p.info {
-    grid-column: span 3;
-  }
-
-  .productlist main h2 {
-    grid-column: span 3;
-  }
-
-  .productTab {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-  }
-
-  .smallProduct {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    align-items: center;
-    gap: 15%;
-  }
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -69,7 +32,6 @@ ol {
 }
 
 .nav-logo {
-  width: 25em;
   height: auto;
 }
 

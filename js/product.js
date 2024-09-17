@@ -1,5 +1,5 @@
 const urlParams = new URLSearchParams(window.location.search);
-const id = urlParams.get("objectId");
+const id = urlParams.get("id");
 const url = `https://ygrqansxcfgymfjnregf.supabase.co/rest/v1/dataset?objectId=eq.${id}`;
 const key =
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlncnFhbnN4Y2ZneW1mam5yZWdmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjU4ODgxMjcsImV4cCI6MjA0MTQ2NDEyN30.OaocAW4F9ewkORvf5NfLjnu-GhaBq0_7uH17bhwje94";
@@ -17,8 +17,9 @@ function init() {
 }
 
 function showItem(item) {
-  document.querySelector("h1").textContent = item.model;
-  document.querySelector("img").src = `img/${item.categori}.webp`;
-  document.querySelector("img").alt = item.model;
-  document.querySelector(".productInfo h2").textContent = item.brand;
+  document.querySelector("img").src = `img/${item[0].categori}.webp`;
+  document.querySelector("img").alt = item[0].model;
+  document.querySelector(".productInfo h1").textContent = item[0].model;
+  document.querySelector(".productInfo h2").textContent = item[0].subcategory;
+  document.querySelector(".productInfo p").textContent = item[0].brand;
 }

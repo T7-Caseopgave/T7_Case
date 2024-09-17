@@ -1,0 +1,22 @@
+.smallProduct {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border: 1px solid;
+}
+
+.smallProduct h3 {
+  margin: 20px;
+}
+
+.smallProduct a {
+  margin: 20px;
+}
+
+@media (min-width: 800px) {
+  .smallProduct {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15%;
+  }
+}
