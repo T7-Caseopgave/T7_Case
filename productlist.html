@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/MutualStyle.css" />
+    <link rel="stylesheet" href="css/MutualLayout.css" />
+  </head>
+  <body class="productlist">
+    <header>
+      <nav class="navbar">
+        <a href="index.html"><img src="" alt="logo" /></a>
+        <ul class="navItems">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="categories.html">Kategori 1</a></li>
+          <li><a href="categories.html">Kategori 2</a></li>
+          <li><a href="categories.html">Kategori 3</a></li>
+          <li><a href="categories.html">Kategori 4</a></li>
+          <li><a href="categories.html">Kategori 5</a></li>
+          <li><a href="categories.html">Kategori 6</a></li>
+          <li><a href="categories.html">Kategori 7</a></li>
+        </ul>
+        <div class="burgerMenu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <ul class="breadcrumbs">
+        <li><a href="index.html">Home</a></li>
+        <li class="cat">Category</li>
+      </ul>
+      <h1>Subcategory</h1>
+      <p class="info">Subcategory Info</p>
+      <h2>All products</h2>
+      <template id="smallProductTemplate">
+        <article class="smallProduct">
+          <img src="" alt="" />
+          <h3>Product Name</h3>
+          <a class="seeMore" href="">See More</a>
+        </article>
+      </template>
+    </main>
+    <footer></footer>
+    <script src="js/productlist.js"></script>
+    <script src="js/burger.js"></script>
+  </body>
+</html>
