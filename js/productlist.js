@@ -27,6 +27,9 @@ function showItem(item) {
   //lav kopi
   const copy = template.cloneNode(true);
   //ændre indhold
+  //breadcrumbs
+  document.querySelector("li.cat").textContent = item.category;
+  // billeder + info
   copy.querySelector("img").src = `img/${item.category}.webp`;
   copy.querySelector("img").alt = item.model;
   copy.querySelector("h3").textContent = item.model;

@@ -17,9 +17,15 @@ function init() {
 }
 
 function showItem(item) {
-  document.querySelector("img").src = `img/${item[0].categori}.webp`;
-  document.querySelector("img").alt = item[0].model;
-  document.querySelector(".productInfo h1").textContent = item[0].model;
-  document.querySelector(".productInfo h2").textContent = item[0].subcategory;
-  document.querySelector(".productInfo p").textContent = item[0].brand;
+  //breadcrumbs
+  document.querySelector("li.item").textContent = item[0].model;
+  document.querySelector("li.cat").textContent = item[0].category;
+  //billede + produktinformation
+  document.querySelector(".productImg").src = `img/${item[0].category}.webp`;
+  document.querySelector(".productImg").alt = item[0].model;
+  document.querySelector("h1").textContent = item[0].model;
+  document.querySelector(
+    ".productInfo p.subtle"
+  ).textContent = `${item[0].subcategory}, ${item[0].brand}`;
+  document.querySelector(".productInfo p.tags").textContent = item[0].tags;
 }

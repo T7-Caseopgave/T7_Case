@@ -1,11 +1,39 @@
 .productInfo {
-  font-weight: 300;
   line-height: 200%;
-  border: 1px solid;
-  padding: 1rem;
-  border-radius: 10px;
   height: fit-content;
+}
+
+img {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+.book {
+  padding: 7px 20px;
   text-align: center;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e682a9;
+  margin-top: 15px;
+  background-color: #ffffff;
+}
+
+#data {
+  border-color: #e682a9;
+  border-style: solid;
+  border-width: 1px;
+}
+
+input {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e682a9;
+  background-color: dfe0e4;
 }
 
 @media (min-width: 800px) {
