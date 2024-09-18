@@ -1,8 +1,3 @@
-body {
-  background-image: url("../img/background.svg");
-  background-size: contain;
-}
-
 ol {
   display: grid;
   grid-gap: 1rem;
@@ -21,9 +16,8 @@ ol li {
   border: 1px solid;
   list-style-type: none;
   padding-bottom: 20px;
-  background-color: #dfe0e4;
-  border-color: #e682a9;
-  color: #233249;
+  background-color: #233249;
+  color: #dfe0e4;
 }
 
 ol li img {
@@ -32,6 +26,11 @@ ol li img {
 
 ol li a {
   margin: 20px;
+  color: #dfe0e4;
+}
+
+ol li a:visited {
+  color: #dfe0e4;
 }
 
 @media (min-width: 600px) {
@@ -44,5 +43,11 @@ ol li a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 600px) {
+  ol {
+    grid-template-columns: 1fr 1fr;
   }
 }

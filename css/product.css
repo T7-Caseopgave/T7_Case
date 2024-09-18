@@ -36,6 +36,11 @@ input {
   background-color: dfe0e4;
 }
 
+p.subtle {
+  color: #777677;
+  font-weight: 100;
+}
+
 @media (min-width: 800px) {
   .productTab {
     display: grid;

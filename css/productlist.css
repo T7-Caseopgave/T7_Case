@@ -3,16 +3,18 @@
   flex-direction: column;
   margin-bottom: 20px;
   border: 1px solid;
-  border-color: #e682a9;
-  align-items: center;
 }
 
-.smallProduct h3 p {
+.name h3 {
+  margin-left: 20px;
+}
+
+.name p {
   margin: 20px;
 }
 
 .smallProduct a {
-  margin: 30px;
+  margin: 20px;
 }
 
 .seeMore {
@@ -21,6 +23,7 @@
   text-align: center;
   border-radius: 5px;
   color: #dfe0e4;
+  width: 50%;
 }
 
 a.seeMore:visited {
@@ -35,6 +38,13 @@ a.seeMore:hover {
   .smallProduct {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10%;
+    gap: 7%;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+  .tags {
+    display: none;
   }
 }
