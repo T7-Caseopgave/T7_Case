@@ -24,7 +24,7 @@ function showCategory(cat) {
   //laver kopi
   const copy = template.cloneNode(true);
   //ændre indhold
-  copy.querySelector("#catImg").src = `img/${cat.category}.webp`;
+  copy.querySelector("#catImg").src = `img/${cat.img}.webp`;
   copy.querySelector("a").textContent = cat.category;
   copy.querySelector("a").href = `productlist.html?category=${cat.category}`;
   //appender

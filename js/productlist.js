@@ -29,10 +29,12 @@ function showItem(item) {
   //ændre indhold
   //breadcrumbs
   document.querySelector("li.cat").textContent = item.category;
+  document.querySelector("p.info").textContent = item.subCatInfo;
   // billeder + info
-  copy.querySelector("img").src = `img/${item.category}.webp`;
+  copy.querySelector("img").src = `img/${item.img}.webp`;
   copy.querySelector("img").alt = item.model;
   copy.querySelector("h3").textContent = item.model;
+  copy.querySelector("p.tags").textContent = item.tags;
   copy
     .querySelector(".seeMore")
     .setAttribute("href", `product.html?id=${item.objectId}`);

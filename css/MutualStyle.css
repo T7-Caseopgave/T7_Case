@@ -4,6 +4,10 @@ body {
   font-family: "Roboto";
 }
 
+p {
+  line-height: 200%;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -14,6 +18,14 @@ a:link {
   text-decoration: none;
   font-size: 16px;
   font-weight: lighter;
+}
+
+.breadcrumbs a {
+  color: #233249;
+}
+
+.breadcrumbs a:visited {
+  color: #233249;
 }
 
 ul.breadcrumbs {

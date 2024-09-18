@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.smallProduct h3 {
+.smallProduct h3 p {
   margin: 20px;
 }
 
@@ -20,6 +20,15 @@
   background-color: #e682a9;
   text-align: center;
   border-radius: 5px;
+  color: #dfe0e4;
+}
+
+a.seeMore:visited {
+  color: #dfe0e4;
+}
+
+a.seeMore:hover {
+  color: #dfe0e4;
 }
 
 @media (min-width: 800px) {

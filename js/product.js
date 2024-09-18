@@ -21,7 +21,7 @@ function showItem(item) {
   document.querySelector("li.item").textContent = item[0].model;
   document.querySelector("li.cat").textContent = item[0].category;
   //billede + produktinformation
-  document.querySelector(".productImg").src = `img/${item[0].category}.webp`;
+  document.querySelector(".productImg").src = `img/${item[0].img}.webp`;
   document.querySelector(".productImg").alt = item[0].model;
   document.querySelector("h1").textContent = item[0].model;
   document.querySelector(
