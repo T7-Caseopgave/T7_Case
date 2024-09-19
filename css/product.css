@@ -26,14 +26,14 @@ h1 {
 #data {
   border-color: #e682a9;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2.5px;
 }
 
 input {
   border-width: 1px;
   border-style: solid;
   border-color: #e682a9;
-  background-color: dfe0e4;
+  background-color: #ffffff;
 }
 
 p.subtle {
