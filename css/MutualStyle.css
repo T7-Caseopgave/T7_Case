@@ -15,6 +15,7 @@ h1 {
 
 h2 {
   font-size: 36px;
+  margin-top: 70px;
 }
 
 h3 {
@@ -59,28 +60,6 @@ ul.breadcrumbs li + li:before {
 
 .nav-logo {
   width: 30%;
-  }
-  
-  li {
-    list-style: none;
-  }
-  
-  .fredag {
-    margin-top: -5%;
-  }
-  
-  .nav-menu img{
-    max-width: 125px;
-  }
-
-@font-face {
-  font-family: Roboto;
-  src: url(fonts/Roboto/Roboto-Regular.ttf);
-}
-
-
-.nav-logo {
-width: 20%;
 }
 
 li {
@@ -89,4 +68,25 @@ li {
 
 .fredag {
   margin-top: -5%;
-} 
+}
+
+.nav-menu img {
+  max-width: 125px;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+.nav-logo {
+  width: 20%;
+}
+
+li {
+  list-style: none;
+}
+
+.fredag {
+  margin-top: -5%;
+}
