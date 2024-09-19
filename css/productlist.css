@@ -36,6 +36,10 @@ a.seeMore:hover {
   color: #fffffc;
 }
 
+p.info {
+  width: 60%;
+}
+
 @media (min-width: 800px) {
   .smallProduct {
     display: grid;
