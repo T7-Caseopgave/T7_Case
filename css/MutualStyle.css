@@ -78,3 +78,15 @@ ul.breadcrumbs li + li:before {
   src: url(fonts/Roboto/Roboto-Regular.ttf);
 }
 
+
+.nav-logo {
+width: 20%;
+}
+
+li {
+  list-style: none;
+}
+
+.fredag {
+  margin-top: -5%;
+} 
