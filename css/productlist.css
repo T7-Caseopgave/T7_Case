@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
-  border: 1px solid;
+  border-bottom: 2.5px solid;
+  border-top: 2.5px solid;
+  border-color: rgba(35, 50, 73, 0.5);
 }
 
 .name h3 {
@@ -22,16 +24,16 @@
   background-color: #e682a9;
   text-align: center;
   border-radius: 5px;
-  color: #dfe0e4;
+  color: #fffffc;
   width: 50%;
 }
 
 a.seeMore:visited {
-  color: #dfe0e4;
+  color: #fffffc;
 }
 
 a.seeMore:hover {
-  color: #dfe0e4;
+  color: #fffffc;
 }
 
 @media (min-width: 800px) {
