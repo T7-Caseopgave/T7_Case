@@ -62,6 +62,9 @@ ul.breadcrumbs li + li:before {
   src: url(fonts/Roboto/Roboto-Regular.ttf);
 }
 
+.nav-logo {
+width: 30%;
+}
 
 li {
   list-style: none;
