@@ -57,10 +57,27 @@ ul.breadcrumbs li + li:before {
   content: "/\00a0";
 }
 
+.nav-logo {
+  width: 30%;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .fredag {
+    margin-top: -5%;
+  }
+  
+  .nav-menu img{
+    max-width: 125px;
+  }
+
 @font-face {
   font-family: Roboto;
   src: url(fonts/Roboto/Roboto-Regular.ttf);
 }
+
 
 .nav-logo {
 width: 20%;
@@ -72,4 +89,4 @@ li {
 
 .fredag {
   margin-top: -5%;
-}
+} 
