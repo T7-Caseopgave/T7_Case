@@ -88,22 +88,24 @@ body {
 
 .nav-menu {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
   align-items: center;
-}
-
-.nav-item {
-  margin-left: rem;
+  background-color: #EA5045;
+  
 }
 
 .nav-link {
   font-size: 1rem;
   font-weight: 300;
-  color: rgb(26, 26, 24);
+  color: #fffffc;
 }
 
 .nav-link:hover {
   color: beige;
+}
+
+.nav-link:visited {
+  color: #fffffc;
 }
 
 @media (max-width: 800px) {
