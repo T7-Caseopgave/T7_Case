@@ -19,9 +19,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #EA5045;
-  height: 70px;
-  
+  background-color: #ea5045;
 }
 
 .nav-link {
@@ -45,7 +43,7 @@ body {
     left: -150%;
     top: 5rem;
     flex-direction: column;
-    background-color: #EA5045;
+    background-color: #ea5045;
     width: 100%;
     border-radius: 10px;
     transition: 0.3s;
