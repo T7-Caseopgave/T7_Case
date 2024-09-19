@@ -66,3 +66,7 @@ ul.breadcrumbs li + li:before {
 li {
   list-style: none;
 }
+
+.fredag {
+  margin-top: -5%;
+}
