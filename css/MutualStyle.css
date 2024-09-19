@@ -61,3 +61,8 @@ ul.breadcrumbs li + li:before {
   font-family: Roboto;
   src: url(fonts/Roboto/Roboto-Regular.ttf);
 }
+
+
+li {
+  list-style: none;
+}
