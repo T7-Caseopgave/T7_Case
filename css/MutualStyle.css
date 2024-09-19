@@ -12,10 +12,15 @@ p {
 h1 {
   font-size: 56px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   line-height: 150%;
 =======
   line-height: 50px
 >>>>>>> 7e6fdf53044dff0733b7f67a786a6cc141536f4e
+=======
+  line-height: 150%;
+  margin-top: 70px;
+>>>>>>> 9a48f1b86051bf7a097bfc399536faf2a8967422
 }
 
 h2 {
