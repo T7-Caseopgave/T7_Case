@@ -17,11 +17,10 @@ body {
 
 .nav-menu {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
-  background-color: #EA5045;
+  background-color: #ea5045;
   height: 70px;
-  
 }
 
 .nav-link {
@@ -38,9 +37,9 @@ body {
   color: #fffffc;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .nav-menu {
-      display:flex;
+    display: flex;
     position: fixed;
     left: -150%;
     top: 5rem;
@@ -53,8 +52,8 @@ body {
   }
 
   .navbar {
-display: flex;
-justify-content: end;
+    display: flex;
+    justify-content: end;
   }
 
   .nav-menu.active {
@@ -67,9 +66,9 @@ justify-content: end;
   }
 
   .hamburger {
-     display: block;
+    display: block;
     cursor: pointer;
-  } 
+  }
 
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
@@ -85,4 +84,3 @@ justify-content: end;
     rotate: -45deg;
   }
 }
-
