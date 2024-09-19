@@ -91,11 +91,12 @@ body {
   justify-content:space-around;
   align-items: center;
   background-color: #EA5045;
+  height: 70px;
   
 }
 
 .nav-link {
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 300;
   color: #fffffc;
 }
